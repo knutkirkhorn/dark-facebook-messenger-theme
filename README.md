@@ -1,5 +1,5 @@
 # dark-facebook-messenger-theme
-> Cool dark red Facebook Messenger theme
+> 🕶️ Cool dark red Facebook Messenger theme
 
 ## Installation
 ### Using the browser plugin Stylish
