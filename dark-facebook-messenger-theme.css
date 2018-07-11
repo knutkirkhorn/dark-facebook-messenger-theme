@@ -33,6 +33,18 @@
     color: rgba(234, 234, 234, 0.4);
 }
 
-._58ak ._58al:not(#js_c){
+/* `Messenger title` */
+._1tqi {
+    color: rgb(198, 84, 84);
+}
+
+/* TODO: fix !important? */
+/* TODO: change color for `administator` */
+/* Mention with `@` and `administator` text for people in groups */
+a._ih-._p, ._5qsj {
+    color: #c2bdbd !important;
+}
+
+._5iwm._150g._58ah > ._58ak > ._58al {
     background-color: #717171;
 }
