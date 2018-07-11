@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-	<img width="360" src="logo.svg" alt="dark-facebook-messenger-theme">
+	<img width="360" src="media/logo.svg" alt="dark-facebook-messenger-theme">
 	<br>
 	<br>
 	<br>
