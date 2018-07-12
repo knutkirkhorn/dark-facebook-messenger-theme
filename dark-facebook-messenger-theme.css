@@ -29,7 +29,8 @@
     color: white;
 }
 
-._1ht7, ._497p, ._2v6o, ._3eus, ._1lj0, ._kmc ._1p1t, ._1n-e._36zg, ._1n-e {
+/* `administator` text for people in groups and a lot more texts */
+._1ht7, ._497p, ._2v6o, ._3eus, ._1lj0, ._kmc ._1p1t, ._1n-e._36zg, ._1n-e, ._5qsj {
     color: rgba(234, 234, 234, 0.4);
 }
 
@@ -39,9 +40,8 @@
 }
 
 /* TODO: fix !important? */
-/* TODO: change color for `administator` */
-/* Mention with `@` and `administator` text for people in groups */
-a._ih-._p, ._5qsj {
+/* Mention with `@`*/
+a._ih-._p {
     color: #c2bdbd !important;
 }
 
