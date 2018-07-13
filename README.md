@@ -10,7 +10,7 @@
 
 ## Installation
 ### Using the browser plugin Stylus
-1. Download the [Stylus](https://github.com/openstyles/stylus) plugin:
+1. Get the [Stylus](https://github.com/openstyles/stylus) plugin:
     - For [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
     - For [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 2. Click `Stylus` plugin image → <kbd>Manage</kbd> → <kbd>Write new style</kbd>
@@ -21,7 +21,7 @@
 
 ### Change favicons using Greasemonkey (Optional)
 If you want to change the favicons of the websites aswell as the `css`-style:
-1. install [greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+1. Get the [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) plugin
 2. Click `Greasemonkey` plugin image → <kbd>New user script...</kbd>
 3. Copy the javscript code from [this file](favicon-replacer.js) into the code textarea
 4. Click <kbd>Control</kbd> + <kbd>S</kbd> and go to https://www.messenger.com/ or https://facebook.com to view the result️️
