@@ -35,7 +35,7 @@
 
 /* `administator` text for people in groups and a lot more texts */
 ._1ht7, ._497p, ._2v6o, ._3eus, ._1lj0, ._kmc ._1p1t, ._1n-e._36zg, ._1n-e, ._5qsj, ._58al::placeholder, ._14-7._58al::-moz-placeholder, ._14-7._58al:-moz-placeholder {
-    color: rgba(234, 234, 234, 0.4) !important;
+    color: rgba(234, 234, 234, 0.4) !important; /* csslint allow: known-properties, important */
 }
 
 /* `Messenger title` */
@@ -46,7 +46,7 @@
 /* TODO: fix !important? */
 /* Mention with `@`*/
 a._ih-._p {
-    color: #c2bdbd !important;
+    color: #c2bdbd !important; /* csslint allow: known-properties, important */
 }
 
 ._5iwm._150g._58ah > ._58ak > ._58al {
