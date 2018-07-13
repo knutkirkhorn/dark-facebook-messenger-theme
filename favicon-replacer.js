@@ -12,6 +12,7 @@
 *	Made by Knut Kirkhorn - Licensed MIT
 **/
 
+// Adds a new <link> html element to override the current favicon
 function repalceFavicon(url) {
     let element = document.createElement('link');
     element.rel = 'icon';
