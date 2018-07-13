@@ -12,8 +12,12 @@
     background-color: rgb(49, 49, 49);
 }
 
-._17w2, ._3szq, ._1ht6, .__6m, ._4ik6, ._ih3, ._5i_d .__6m, ._2jnv, ._364g, ._4rpj, ._1ht3 ._1htf, ._4rph ._4rpj, ._llq ._3oh-, ._3oh- > div > a {
+._17w2, ._3szq, ._1ht6, .__6m, ._4ik6, ._ih3, ._5i_d .__6m, ._2jnv, ._364g, ._4rpj, ._1ht3 ._1htf, ._4rph ._4rpj, ._llq ._3oh-, ._3oh- > div > a, ._2y8z, ._1vp5, ._2s25 {
     color: rgb(198, 84, 84);
+}
+
+._1vp5:hover, ._2s25:hover {
+    color: rgb(222, 117, 117);
 }
 
 ._3xn1 {
@@ -30,8 +34,8 @@
 }
 
 /* `administator` text for people in groups and a lot more texts */
-._1ht7, ._497p, ._2v6o, ._3eus, ._1lj0, ._kmc ._1p1t, ._1n-e._36zg, ._1n-e, ._5qsj {
-    color: rgba(234, 234, 234, 0.4);
+._1ht7, ._497p, ._2v6o, ._3eus, ._1lj0, ._kmc ._1p1t, ._1n-e._36zg, ._1n-e, ._5qsj, ._58al::placeholder, ._14-7._58al::-moz-placeholder, ._14-7._58al:-moz-placeholder {
+    color: rgba(234, 234, 234, 0.4) !important; /* csslint allow: known-properties, important */
 }
 
 /* `Messenger title` */
@@ -42,9 +46,19 @@
 /* TODO: fix !important? */
 /* Mention with `@`*/
 a._ih-._p {
-    color: #c2bdbd !important;
+    color: #c2bdbd !important; /* csslint allow: known-properties, important */
 }
 
 ._5iwm._150g._58ah > ._58ak > ._58al {
     background-color: #717171;
 }
+
+._30yy._2fug._2agf._4o_4._p, ._30yy._2oc8 {
+    background-image: url(https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/media/all-images.png);
+}
+
+/* TODO: not sure about going for this one yet
+._2md {
+    background-image: url(https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/media/image-list-2.png);
+}
+*/
