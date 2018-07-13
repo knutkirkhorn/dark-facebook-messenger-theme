@@ -19,6 +19,7 @@ function repalceFavicon(url) {
     document.head.appendChild(element);
 }
 
+// Check which favicon to change to
 if (window.location.host === 'www.facebook.com') {
     repalceFavicon('https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/media/fb.ico');
 } else if (window.location.host === 'www.messenger.com') {
