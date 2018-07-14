@@ -19,7 +19,7 @@
 5. Apply the page to `URLs on the domain` for `facebook.com` and/or `messenger.com` by clicking <kbd>Specify</kbd> → put in the URL
 6. Click <kbd>Save</kbd> and go to https://www.messenger.com/ or https://facebook.com to view the result️️
 
-### Change favicons using Greasemonkey (Optional)
+### Change favicons using Greasemonkey (Optional) (currently only for Firefox)
 If you want to change the favicons of the websites aswell as the `css`-style:
 1. Get the [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) plugin
 2. Click `Greasemonkey` plugin image → <kbd>New user script...</kbd>
