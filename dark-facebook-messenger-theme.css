@@ -17,7 +17,7 @@
 }
 
 ._1vp5:hover, ._2s25:hover {
-    color: rgb(222, 117, 117);
+    color: rgb(222, 117, 117) !important; /* csslint allow: known-properties, important */
 }
 
 ._3xn1 {
