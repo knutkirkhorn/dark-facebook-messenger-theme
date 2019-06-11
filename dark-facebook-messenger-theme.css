@@ -85,6 +85,12 @@ a._ih-._p {
     background-color: rgb(198, 84, 84);
 }
 
+/* Search placeholder */
+._5iwm > label:nth-child(1) > input:nth-child(1)::placeholder {
+    color: #1e1e1e !important;
+    opacity: 1;
+}
+
 /* TODO: not sure about going for this one yet
 ._2md {
     background-image: url(https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/media/image-list-2.png);
