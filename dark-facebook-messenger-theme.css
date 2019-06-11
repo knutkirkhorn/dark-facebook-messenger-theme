@@ -12,8 +12,13 @@
     background-color: rgb(49, 49, 49);
 }
 
-._17w2, ._3szq, ._1ht6, .__6m, ._4ik6, ._ih3, ._5i_d .__6m, ._2jnv, ._364g, ._4rpj, ._1ht3 ._1htf, ._4rph ._4rpj, ._llq ._3oh-, ._3oh- > div > a, ._2y8z, ._1vp5, ._2s25, ._3oh- > span > a {
+._17w2, ._3szq, ._1ht6, .__6m, ._4ik6, ._ih3, ._5i_d .__6m, ._2jnv, ._364g, ._4rpj, ._1ht3 ._1htf, ._4rph ._4rpj, ._llq ._3oh-, ._3oh- > div > a, ._2y8z, ._1vp5, ._2s25, ._3oh- > span > a, ._4ik4._4ik5 {
     color: rgb(198, 84, 84);
+}
+
+/* Hover links => underline color */
+._5rw4:hover .__6k {
+    color: rgb(198, 84, 84) !important;
 }
 
 ._1vp5:hover, ._2s25:hover {
@@ -21,7 +26,7 @@
 }
 
 ._3xn1 {
-    background-color: rgb(198, 84, 84);
+    /* TODO: FIX: background-color: rgb(198, 84, 84); */
 }
 
 ._2s1x ._2s1y {
@@ -68,6 +73,11 @@ a._ih-._p {
 
 ._30yy._2oc8 {
     background-position: 0 -356px;
+}
+
+/* Menu background hover */
+._2i-c ._54ne ._54nh, ._2i-c ._54ne ._54nc, ._2i-c ._54ne {
+    background-color: rgb(198, 84, 84);
 }
 
 /* TODO: not sure about going for this one yet
