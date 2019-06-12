@@ -59,7 +59,8 @@ a._ih-._p {
     color: #c2bdbd !important; /* csslint allow: known-properties, important */
 }
 
-._5iwm._150g._58ah > ._58ak > ._58al {
+/* Background color for search input */
+._5iwm._150g._58ah > ._58ak > ._58al._7tpc {
     background-color: #717171;
 }
 
