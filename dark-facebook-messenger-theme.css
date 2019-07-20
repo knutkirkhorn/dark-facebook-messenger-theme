@@ -16,6 +16,18 @@
     color: rgb(198, 84, 84);
 }
 
+/* Chat title text color */
+._6-xo,
+/* Receiver name text color */ 
+span._6ybk a {
+    color: rgb(198, 84, 84) !important;
+}
+
+/* Bottom message input bar */
+._5irm._7mkm {
+    background-color: rgb(49, 49, 49);
+}
+
 /* Search message => preview content */
 ._7u0a {
     color: #606770;
