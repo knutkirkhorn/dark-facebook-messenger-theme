@@ -6,110 +6,112 @@
 @author       Knutakir - Knut Kirkhorn
 ==/UserStyle== */
 
-._nd_ ._hh7, ._hh7 {
-    background-color: rgb(141, 60, 60);
-    color: #1a1a1a;
-}
+@-moz-document domain("messenger.com"), domain("facebook.com") {
+    ._nd_ ._hh7, ._hh7 {
+        background-color: rgb(141, 60, 60);
+        color: #1a1a1a;
+    }
 
-._4sp8, .clearfix._17pz {
-    color: rgb(198, 84, 84);
-    background-color: rgb(49, 49, 49);
-}
+    ._4sp8, .clearfix._17pz {
+        color: rgb(198, 84, 84);
+        background-color: rgb(49, 49, 49);
+    }
 
-._17w2, ._3szq, ._1ht6, .__6m, ._4ik6, ._ih3, ._5i_d .__6m, ._2jnv, ._364g, ._4rpj, ._1ht3 ._1htf, ._4rph ._4rpj, ._llq ._3oh-, ._3oh- > div > a, ._2y8z, ._1vp5, ._2s25, ._3oh- > span > a, ._4ik4._4ik5, ._58-0._58ah > ._58ak > ._58al._7tpc, ._3q34, ._225b {
-    color: rgb(198, 84, 84);
-}
+    ._17w2, ._3szq, ._1ht6, .__6m, ._4ik6, ._ih3, ._5i_d .__6m, ._2jnv, ._364g, ._4rpj, ._1ht3 ._1htf, ._4rph ._4rpj, ._llq ._3oh-, ._3oh- > div > a, ._2y8z, ._1vp5, ._2s25, ._3oh- > span > a, ._4ik4._4ik5, ._58-0._58ah > ._58ak > ._58al._7tpc, ._3q34, ._225b {
+        color: rgb(198, 84, 84);
+    }
 
-/* Chat title text color */
-._6-xo,
-/* Receiver name text color */ 
-span._6ybk a {
-    color: rgb(198, 84, 84) !important;
-}
+    /* Chat title text color */
+    ._6-xo,
+    /* Receiver name text color */ 
+    span._6ybk a {
+        color: rgb(198, 84, 84) !important;
+    }
 
-/* Bottom message input bar */
-._5irm._7mkm {
-    background-color: rgb(49, 49, 49);
-}
+    /* Bottom message input bar */
+    ._5irm._7mkm {
+        background-color: rgb(49, 49, 49);
+    }
 
-/* Search message => preview content */
-._7u0a {
-    color: #606770;
-}
+    /* Search message => preview content */
+    ._7u0a {
+        color: #606770;
+    }
 
-/* Hover links => underline color */
-._5rw4:hover .__6k {
-    color: rgb(198, 84, 84) !important;
-}
+    /* Hover links => underline color */
+    ._5rw4:hover .__6k {
+        color: rgb(198, 84, 84) !important;
+    }
 
-._1vp5:hover, ._2s25:hover {
-    color: rgb(222, 117, 117) !important; /* csslint allow: known-properties, important */
-}
+    ._1vp5:hover, ._2s25:hover {
+        color: rgb(222, 117, 117) !important; /* csslint allow: known-properties, important */
+    }
 
-._3xn1 {
-    /* TODO: FIX: background-color: rgb(198, 84, 84); */
-}
+    ._3xn1 {
+        /* TODO: FIX: background-color: rgb(198, 84, 84); */
+    }
 
-._2s1x ._2s1y {
-    background-color: rgb(49, 49, 49);
-    border-bottom: 1px solid #803d3d;
-}
+    ._2s1x ._2s1y {
+        background-color: rgb(49, 49, 49);
+        border-bottom: 1px solid #803d3d;
+    }
 
-._5swm {
-    color: white;
-}
+    ._5swm {
+        color: white;
+    }
 
-/* `administator` text for people in groups and a lot more texts */
-._1ht7, ._497p, ._2v6o, ._3eus, ._1lj0, ._kmc ._1p1t, ._1n-e._36zg, ._1n-e, ._5qsj, ._58al::placeholder, ._14-7._58al::-moz-placeholder, ._14-7._58al:-moz-placeholder {
-    color: rgba(234, 234, 234, 0.4) !important; /* csslint allow: known-properties, important */
-}
+    /* `administator` text for people in groups and a lot more texts */
+    ._1ht7, ._497p, ._2v6o, ._3eus, ._1lj0, ._kmc ._1p1t, ._1n-e._36zg, ._1n-e, ._5qsj, ._58al::placeholder, ._14-7._58al::-moz-placeholder, ._14-7._58al:-moz-placeholder {
+        color: rgba(234, 234, 234, 0.4) !important; /* csslint allow: known-properties, important */
+    }
 
-/* `Messenger title` */
-._1tqi {
-    color: rgb(198, 84, 84);
-}
+    /* `Messenger title` */
+    ._1tqi {
+        color: rgb(198, 84, 84);
+    }
 
-/* TODO: fix !important? */
-/* Mention with `@`*/
-a._ih-._p {
-    color: #c2bdbd !important; /* csslint allow: known-properties, important */
-}
+    /* TODO: fix !important? */
+    /* Mention with `@`*/
+    a._ih-._p {
+        color: #c2bdbd !important; /* csslint allow: known-properties, important */
+    }
 
-/* Background color for search input */
-._5iwm._150g._58ah > ._58ak > ._58al._7tpc {
-    background-color: #717171;
-}
+    /* Background color for search input */
+    ._5iwm._150g._58ah > ._58ak > ._58al._7tpc {
+        background-color: #717171;
+    }
 
-._30yy._2fug._2agf._4o_4._p, ._30yy._2oc8 {
-    background-image: url(https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/master/media/image-list-1.png);
-}
+    ._30yy._2fug._2agf._4o_4._p, ._30yy._2oc8 {
+        background-image: url(https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/master/media/image-list-1.png);
+    }
 
-/* Share icon */
-._2t5t {
-    background-image: url(https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/master/media/image-list-3.png);
-}
+    /* Share icon */
+    ._2t5t {
+        background-image: url(https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/master/media/image-list-3.png);
+    }
 
-._30yy._2fug._2agf._4o_4._p {
-    background-position: 0 -389px;
-}
+    ._30yy._2fug._2agf._4o_4._p {
+        background-position: 0 -389px;
+    }
 
-._30yy._2oc8 {
-    background-position: 0 -356px;
-}
+    ._30yy._2oc8 {
+        background-position: 0 -356px;
+    }
 
-/* Menu background hover */
-._2i-c ._54ne ._54nh, ._2i-c ._54ne ._54nc, ._2i-c ._54ne {
-    background-color: rgb(198, 84, 84);
-}
+    /* Menu background hover */
+    ._2i-c ._54ne ._54nh, ._2i-c ._54ne ._54nc, ._2i-c ._54ne {
+        background-color: rgb(198, 84, 84);
+    }
 
-/* Search placeholder */
-._5iwm > label:nth-child(1) > input:nth-child(1)::placeholder {
-    color: #1e1e1e !important;
-    opacity: 1;
-}
+    /* Search placeholder */
+    ._5iwm > label:nth-child(1) > input:nth-child(1)::placeholder {
+        color: #1e1e1e !important;
+        opacity: 1;
+    }
 
-/* TODO: not sure about going for this one yet
-._2md {
-    background-image: url(https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/media/image-list-2.png);
+    /* TODO: not sure about going for this one yet
+    ._2md {
+        background-image: url(https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/media/image-list-2.png);
+    }
+    */
 }
-*/
