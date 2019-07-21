@@ -8,6 +8,8 @@
 
 > 🕶️ Cool dark red Facebook Messenger theme
 
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/master/dark-facebook-messenger-theme.user.css)
+
 ## Installation
 ### Using the browser plugin Stylus
 1. Get the [Stylus](https://github.com/openstyles/stylus) plugin:
