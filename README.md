@@ -15,7 +15,7 @@
     - For [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 2. Click `Stylus` plugin image → <kbd>Manage</kbd> → <kbd>Write new style</kbd>
 3. Enther a name for the style. E.g: `dark-facebook-messenger-theme`
-4. Copy the css content from [this file](dark-facebook-messenger-theme.css) into the code textarea
+4. Copy the css content from [this file](https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/master/dark-facebook-messenger-theme.user.css) into the code textarea
 5. Apply the page to `URLs on the domain` for `facebook.com` and/or `messenger.com` by clicking <kbd>Specify</kbd> → put in the URL
 6. Click <kbd>Save</kbd> and go to https://www.messenger.com/ or https://facebook.com to view the result️️
 
