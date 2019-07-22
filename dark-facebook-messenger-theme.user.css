@@ -1,9 +1,12 @@
 /* ==UserStyle==
 @name         dark-facebook-messenger-theme
+@description  🕶️ Cool dark red Facebook Messenger theme
 @namespace    https://github.com/Knutakir
 @version      1.0.0
 @license      MIT
 @author       Knut Kirkhorn
+@homepageURL  https://github.com/Knutakir/dark-facebook-messenger-theme
+@supportURL   https://github.com/Knutakir/dark-facebook-messenger-theme/issues
 ==/UserStyle== */
 
 @-moz-document domain("messenger.com"), domain("facebook.com") {
