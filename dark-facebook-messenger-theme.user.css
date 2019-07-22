@@ -68,6 +68,19 @@
         color: rgba(234, 234, 234, 0.4) !important; /* csslint allow: known-properties, important */
     }
 
+    /* Search `Did not found any results` */
+    ._3xcx,
+    /* Left tab messages titles */
+    ._225b._6ybl,
+    /* Message search result */
+    ._3q35,
+    /* Message search result timestamp */
+    ._7s4e.timestamp,
+    /* "Report / give feedback" text */
+    ._7ht_ {
+        color: rgba(234, 234, 234, 0.4);
+    }
+
     /* `Messenger title` */
     ._1tqi {
         color: rgb(198, 84, 84);
