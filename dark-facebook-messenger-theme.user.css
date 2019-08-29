@@ -132,4 +132,62 @@
         background-image: url(https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/media/image-list-2.png);
     }
     */
+
+    /* Left message navigation panel */
+    /* Message settings svg */
+    #settings #Fill-1 {
+        fill: rgb(198, 84, 84);
+    }
+
+    /* New Message svg */
+    #compose #Fill-2 {
+        fill: rgb(198, 84, 84);
+    }
+
+    /* 3-dots Settings for hovering person */
+    #dots-3-horizontal #Fill-1 {
+        fill: rgb(198, 84, 84);
+    }
+
+    /* Inside messages with user*/
+    /* Share message */
+    #share #Fill-8 {
+        fill: rgb(198, 84, 84);
+    }
+
+    /* Answer message */
+    #reply #Fill-19 {
+        fill: rgb(198, 84, 84);
+    }
+
+    /* Selected user => Right panel */
+    /* Search messages */
+    #magnifying-glass #Fill-1 {
+        fill: rgb(198, 84, 84);
+    }
+
+    /* Change nickname */
+    #pencil-underline #Fill-1 {
+        fill: rgb(198, 84, 84);
+    }
+
+    /* Ignore messages */
+    #message-cross #Fill-1 {
+        fill: rgb(198, 84, 84);
+    }
+
+    /* Block messages */
+    #minus-circle #Fill-19 {
+        fill: rgb(198, 84, 84);
+    }
+
+    /* Report problem: "Something wrong" */
+    #caution-triangle #Fill-23 {
+        fill: rgb(198, 84, 84);
+    }
+
+    /* Message right side notification bell */
+    #bell #Fill-24 {
+        fill: rgb(198, 84, 84);
+    }
 }
