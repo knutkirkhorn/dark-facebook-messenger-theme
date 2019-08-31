@@ -164,6 +164,11 @@
         fill: rgb(198, 84, 84);
     }
 
+    /* Search results bar top */
+    ._33p7 {
+        background-color: rgba(49, 49, 49, .95);
+    }
+
     /* Selected user => Right panel */
     /* Search messages */
     #magnifying-glass #Fill-1 {
