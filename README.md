@@ -15,7 +15,7 @@
 1. Get the [Stylus](https://github.com/openstyles/stylus) plugin:
     - For [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
     - For [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
-2. Clik [here]() to install the theme using Stylus.
+2. Clik [here](https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/master/dark-facebook-messenger-theme.user.css) to install the theme using Stylus.
 3. Click <kbd>Install style</kbd> and go to https://www.messenger.com/ or https://facebook.com to view the result️️
 
 #### Alternative manual installation
