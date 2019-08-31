@@ -143,6 +143,11 @@
         fill: rgb(198, 84, 84);
     }
 
+    /* Empty search result text */
+    ._8b0j {
+        color: rgba(234, 234, 234, 0.4);
+    }
+
     /* Inside messages with user*/
     /* Share message */
     #share #Fill-8 {
