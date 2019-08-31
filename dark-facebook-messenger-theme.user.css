@@ -10,30 +10,37 @@
 ==/UserStyle== */
 
 @-moz-document domain("messenger.com"), domain("facebook.com") {
+    :root {
+        --normal-dark-red: rgb(198, 84, 84);
+        --darker-dark-red: rgb(141, 60, 60);
+        --dark-gray: rgb(49, 49, 49);
+    }
+
+    /* Incoming message box */
     ._nd_ ._hh7, ._hh7 {
-        background-color: rgb(141, 60, 60);
+        background-color: var(--darker-dark-red);
         color: #1a1a1a;
     }
 
     ._4sp8, .clearfix._17pz {
-        color: rgb(198, 84, 84);
-        background-color: rgb(49, 49, 49);
+        color: var(--normal-dark-red);
+        background-color: var(--dark-gray);
     }
 
     ._17w2, ._3szq, ._1ht6, .__6m, ._4ik6, ._ih3, ._5i_d .__6m, ._2jnv, ._364g, ._4rpj, ._1ht3 ._1htf, ._4rph ._4rpj, ._llq ._3oh-, ._3oh- > div > a, ._2y8z, ._1vp5, ._2s25, ._3oh- > span > a, ._4ik4._4ik5, ._58-0._58ah > ._58ak > ._58al._7tpc, ._3q34, ._225b {
-        color: rgb(198, 84, 84);
+        color: var(--normal-dark-red);
     }
 
     /* Chat title text color */
     ._6-xo,
     /* Receiver name text color */ 
     span._6ybk a {
-        color: rgb(198, 84, 84) !important;
+        color: var(--normal-dark-red) !important;
     }
 
     /* Bottom message input bar */
     ._5irm._7mkm {
-        background-color: rgb(49, 49, 49);
+        background-color: var(--dark-gray);
     }
 
     /* Search message => preview content */
@@ -43,7 +50,7 @@
 
     /* Hover links => underline color */
     ._5rw4:hover .__6k {
-        color: rgb(198, 84, 84) !important;
+        color: var(--normal-dark-red) !important;
     }
 
     ._1vp5:hover, ._2s25:hover {
@@ -51,7 +58,7 @@
     }
 
     ._2s1x ._2s1y {
-        background-color: rgb(49, 49, 49);
+        background-color: var(--dark-gray);
         border-bottom: 1px solid #803d3d;
     }
 
@@ -81,7 +88,7 @@
 
     /* `Messenger title` */
     ._1tqi {
-        color: rgb(198, 84, 84);
+        color: var(--normal-dark-red);
     }
 
     /* TODO: fix !important? */
@@ -114,7 +121,7 @@
 
     /* Menu background hover */
     ._2i-c ._54ne ._54nh, ._2i-c ._54ne ._54nc, ._2i-c ._54ne {
-        background-color: rgb(198, 84, 84);
+        background-color: var(--normal-dark-red);
     }
 
     /* Search placeholder */
@@ -126,17 +133,17 @@
     /* Left message navigation panel */
     /* Message settings svg */
     #settings #Fill-1 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* New Message svg */
     #compose #Fill-2 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* 3-dots Settings for hovering person */
     #dots-3-horizontal #Fill-1 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* Empty search result text */
@@ -146,28 +153,28 @@
 
     /* Go back from search arrow */
     #arrow-left #Fill-1 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* Composing new message => cancel cross */
     #cross #Fill-1 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* Inside messages with user*/
     /* Share message */
     #share #Fill-8 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* Answer message */
     #reply #Fill-19 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* React to message */
     ._5zvq._7i2o > svg > g > path {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* Search results bar top */
@@ -178,31 +185,31 @@
     /* Selected user => Right panel */
     /* Search messages */
     #magnifying-glass #Fill-1 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* Change nickname */
     #pencil-underline #Fill-1 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* Ignore messages */
     #message-cross #Fill-1 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* Block messages */
     #minus-circle #Fill-19 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* Report problem: "Something wrong" */
     #caution-triangle #Fill-23 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 
     /* Message right side notification bell */
     #bell #Fill-24 {
-        fill: rgb(198, 84, 84);
+        fill: var(--normal-dark-red);
     }
 }
