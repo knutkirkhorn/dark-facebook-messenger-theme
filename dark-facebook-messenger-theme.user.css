@@ -50,10 +50,6 @@
         color: rgb(222, 117, 117) !important; /* csslint allow: known-properties, important */
     }
 
-    ._3xn1 {
-        /* TODO: FIX: background-color: rgb(198, 84, 84); */
-    }
-
     ._2s1x ._2s1y {
         background-color: rgb(49, 49, 49);
         border-bottom: 1px solid #803d3d;
