@@ -148,6 +148,11 @@
         color: rgba(234, 234, 234, 0.4);
     }
 
+    /* Go back from search arrow */
+    #arrow-left #Fill-1 {
+        fill: rgb(198, 84, 84);
+    }
+
     /* Inside messages with user*/
     /* Share message */
     #share #Fill-8 {
