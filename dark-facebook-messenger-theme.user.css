@@ -154,6 +154,11 @@
         fill: rgb(198, 84, 84);
     }
 
+    /* React to message */
+    ._5zvq._7i2o > svg > g > path {
+        fill: rgb(198, 84, 84);
+    }
+
     /* Selected user => Right panel */
     /* Search messages */
     #magnifying-glass #Fill-1 {
