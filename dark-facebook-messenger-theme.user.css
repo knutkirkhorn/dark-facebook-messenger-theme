@@ -153,6 +153,11 @@
         fill: rgb(198, 84, 84);
     }
 
+    /* Composing new message => cancel cross */
+    #cross #Fill-1 {
+        fill: rgb(198, 84, 84);
+    }
+
     /* Inside messages with user*/
     /* Share message */
     #share #Fill-8 {
