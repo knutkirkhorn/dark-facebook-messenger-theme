@@ -183,6 +183,16 @@
     }
 
     /* Selected user => Right panel */
+    /* Group chat: circle around profile picture or plus number of people */
+    ._7101 > ._7q1j > div {
+        border: 4px solid var(--normal-dark-red) !important;
+    }
+
+    /* Group chat: plus number of people */
+    ._7q1q {
+        color: var(--normal-dark-red);
+    }
+
     /* Search messages */
     #magnifying-glass #Fill-1 {
         fill: var(--normal-dark-red);
