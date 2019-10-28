@@ -14,6 +14,7 @@
         --normal-dark-red: rgb(198, 84, 84);
         --darker-dark-red: rgb(141, 60, 60);
         --dark-gray: rgb(49, 49, 49);
+        --light-gray: rgba(234, 234, 234, 0.4);
     }
 
     /* Incoming message box */
@@ -68,7 +69,7 @@
 
     /* `administator` text for people in groups and a lot more texts */
     ._1ht7, ._497p, ._2v6o, ._3eus, ._1lj0, ._kmc ._1p1t, ._1n-e._36zg, ._1n-e, ._5qsj, ._58al::placeholder, ._14-7._58al::-moz-placeholder, ._14-7._58al:-moz-placeholder {
-        color: rgba(234, 234, 234, 0.4) !important; /* csslint allow: known-properties, important */
+        color: var(--light-gray) !important; /* csslint allow: known-properties, important */
     }
 
     /* Search `Did not found any results` */
@@ -161,7 +162,7 @@
         fill: var(--normal-dark-red);
     }
 
-    /* Inside messages with user*/
+    /* Inside messages with user */
     /* Share message */
     #share #Fill-8 {
         fill: var(--normal-dark-red);
@@ -180,6 +181,21 @@
     /* Search results bar top */
     ._33p7 {
         background-color: rgba(49, 49, 49, .95);
+    }
+
+    /* Send attachment message => new box below message */
+    .chatAttachmentShelf {
+        background-color: var(--dark-gray) !important;
+    }
+
+    /* Color of the text to the attachment */
+    .chatAttachmentShelf .__6j > div {
+        color: var(--normal-dark-red);
+    }
+
+    /* Border on the top of the attachment */
+    ._4_j4 .chatAttachmentShelf {
+        border-top: 1px solid rgba(0, 0, 0, .10);
     }
 
     /* Selected user => Right panel */
