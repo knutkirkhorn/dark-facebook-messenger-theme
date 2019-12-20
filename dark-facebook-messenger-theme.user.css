@@ -162,6 +162,11 @@
         fill: var(--normal-dark-red);
     }
 
+    /* Search results */
+    ._8slc {
+        color: var(--normal-dark-red);
+    }
+
     /* Inside messages with user */
     /* Share message */
     #share #Fill-8 {
