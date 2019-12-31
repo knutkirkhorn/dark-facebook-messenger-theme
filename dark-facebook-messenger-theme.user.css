@@ -23,9 +23,16 @@
         color: #1a1a1a;
     }
 
-    ._4sp8, .clearfix._17pz {
+    /*Normal texts, originally black text on white background*/
+    /*._29_7 ._3058._s1-._6e6n : "... replied to you" / "You replied to..." boxes */
+    ._4sp8, .clearfix._17pz, ._3egs, ._3058, ._29_7 ._3058._s1-._6e6n {
         color: var(--normal-dark-red);
         background-color: var(--dark-gray);
+    }
+    
+    /*_8rsr: like button*/
+    ._8rsr {
+        fill: var(--dark-gray);
     }
 
     ._17w2, ._3szq, ._1ht6, .__6m, ._4ik6, ._ih3, ._5i_d .__6m, ._2jnv, ._364g, ._4rpj, ._1ht3 ._1htf, ._4rph ._4rpj, ._llq ._3oh-, ._3oh- > div > a, ._2y8z, ._1vp5, ._2s25, ._3oh- > span > a, ._4ik4._4ik5, ._58-0._58ah > ._58ak > ._58al._7tpc, ._3q34, ._225b {
