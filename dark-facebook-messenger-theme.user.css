@@ -203,12 +203,12 @@
     }
 
     /* Send attachment message => new box below message */
-    .chatAttachmentShelf {
+    ._4_j4 > .fbNubFlyoutAttachments > .chatAttachmentShelf {
         background-color: var(--dark-gray) !important;
     }
 
     /* Color of the text to the attachment */
-    .chatAttachmentShelf .__6j > div {
+    ._4_j4 > .fbNubFlyoutAttachments > .chatAttachmentShelf .__6j > div {
         color: var(--normal-dark-red);
     }
 
