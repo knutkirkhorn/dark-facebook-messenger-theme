@@ -15,6 +15,7 @@
         --darker-dark-red: rgb(141, 60, 60);
         --dark-gray: rgb(49, 49, 49);
         --light-gray: rgba(234, 234, 234, 0.4);
+        --card-background: #b34136; /* This is a variable created by Facebook and is used for the background in the reaction selecter */
     }
 
     /* Incoming message box */
@@ -215,6 +216,82 @@
     /* Border on the top of the attachment */
     ._4_j4 .chatAttachmentShelf {
         border-top: 1px solid rgba(0, 0, 0, .10);
+    }
+
+    /* React to message */
+    /* Round cornered box below message with containing reaction emojis */
+    /* The outer div of the box */
+    ._aou {
+        background-color: #717171;
+        background-color: #b34136;
+        background-color: var(--normal-dark-red);
+    }
+    
+    /* The inner div(s) for the box */
+    span._4kf5 {
+        background-color: #717171;
+        background-color: #b34136;
+        background-color: var(--normal-dark-red);
+    }
+
+    /* The last div in the box containing the number of reactions */
+    span._4kf5._fy2._fy2 {
+        /* This one needs to be overrided because text color will be set if not default chat color */
+        color: var(--dark-gray) !important;
+    }
+
+    /* Emoji picker box after clicking react */
+    /* The dot under the selected emoji in the picker box */
+    ._53ij > div > div._1z8q._fy2 > span._1z8r._5-2b::after {
+        background-color: var(--dark-gray);
+    }
+
+    /* Message box pop up after click to show all reactions */
+    ._4eby {
+        background-color: var(--dark-gray);
+    }
+    
+    /* Modal showing all reactions. Appears after clicking reaction box for message */
+    /* Modal title */
+    ._19jt {
+        color: var(--normal-dark-red) !important;
+    }
+    
+    /* Exit text top right */
+    ._3quh {
+        color: var(--normal-dark-red);
+    }
+    
+    /* Unselected tab text */
+    li:not(.selected) > span._359u {
+        color: var(--light-gray);
+    }
+
+    /* Selected tab text and underline */
+    ._koh > .selected {
+        border-bottom: 1px solid var(--darker-dark-red);
+        
+        color: var(--normal-dark-red);
+    }
+
+    /* Separator between the message reactions and the tabs */
+    ._koh {
+        border-bottom: 1px solid rgba(0, 0, 0, .25);
+    }
+    
+    /* Chat reacters name text color */
+    ._3s-3 > ._3s-8 {
+        color: var(--normal-dark-red);
+    }
+
+    /* Clear modal background round corners */
+    ._59s7 {
+        background: transparent;
+    }
+
+    /* Circle around the reaction emoji */
+    div._3s-4 {
+        background: var(--normal-dark-red);
     }
 
     /* Selected user => Right panel */
