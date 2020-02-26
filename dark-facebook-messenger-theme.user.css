@@ -192,6 +192,22 @@
         fill: var(--normal-dark-red);
     }
 
+    /* Message response */
+    /* Box sorrounding the text of response to message */
+    div._8lma > ._3egs {
+        background-color: var(--dark-gray);
+    }
+
+    /* Line with text for responding to message */
+    ._3egs > ._4k7a {
+        color: var(--normal-dark-red);
+    }
+
+    /* Quoted message that is responded to */
+    ._4k7e > span > span {
+        color: var(--dark-gray);
+    }
+
     /* React to message */
     ._5zvq._7i2o > svg > g > path {
         fill: var(--normal-dark-red);
