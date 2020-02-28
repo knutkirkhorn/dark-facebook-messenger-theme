@@ -15,7 +15,6 @@
         --darker-dark-red: rgb(141, 60, 60);
         --dark-gray: rgb(49, 49, 49);
         --light-gray: rgba(234, 234, 234, 0.4);
-        --card-background: #b34136; /* This is a variable created by Facebook and is used for the background in the reaction selecter */
     }
 
     /* Incoming message box */
@@ -241,6 +240,11 @@
     }
 
     /* Emoji picker box after clicking react */
+    /* Background of emoji picker box */
+    ._53ij {
+        background-color: #b34136;
+    }
+
     /* The dot under the selected emoji in the picker box */
     ._53ij > div > div._1z8q._fy2 > span._1z8r._5-2b::after {
         background-color: var(--dark-gray);
