@@ -187,6 +187,22 @@
         color: var(--normal-dark-red);
     }
 
+    /* "Settings" modal accessed from menu at top left */
+    /* Text color */
+    div._374b > div {
+        color: var(--normal-dark-red);
+    }
+
+    /* Description color */
+    ._6cs5 > ._6cs7, div._374b > ._374d > label {
+        color: var(--light-gray);
+    }
+
+    /* Payment and block link colors */
+    div._374b > ._374d > a {
+        color: var(--normal-dark-red);
+    }
+
     /* Inside messages with user */
     /* Share message */
     #share #Fill-8 {
