@@ -181,6 +181,12 @@
         color: var(--normal-dark-red);
     }
 
+    /* Show hidden chats */
+    /* "Go back to chats" text */
+    ._3bll._6ybw a {
+        color: var(--normal-dark-red);
+    }
+
     /* Inside messages with user */
     /* Share message */
     #share #Fill-8 {
