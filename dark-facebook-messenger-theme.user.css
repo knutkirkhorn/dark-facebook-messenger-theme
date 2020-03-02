@@ -156,7 +156,7 @@
         fill: var(--normal-dark-red);
     }
 
-    /* 3-dots Settings for hovering person */
+    /* 3-dots Settings for hovering chat */
     #dots-3-horizontal #Fill-1 {
         fill: var(--normal-dark-red);
     }
@@ -314,7 +314,7 @@
         background: var(--normal-dark-red);
     }
 
-    /* Selected user => Right panel */
+    /* Selected chat => Right panel */
     /* Group chat: circle around profile picture or plus number of people */
     ._7101 > ._7q1j > div {
         border: 4px solid var(--normal-dark-red) !important;
@@ -323,6 +323,23 @@
     /* Group chat: plus number of people */
     ._7q1q {
         color: var(--normal-dark-red);
+    }
+
+    /* Shared images */
+    /* First image in row */
+    ._3m31:nth-of-type(3n+1) {
+        border-right: 2px solid var(--dark-gray);
+    }
+    
+    /* Second image in row */
+    ._3m31:nth-of-type(3n+2) {
+        border-left: 1px solid var(--dark-gray);
+        border-right: 1px solid var(--dark-gray);
+    }
+    
+    /* Third image in row */
+    ._3m31:nth-of-type(3n+3) {
+        border-left: 2px solid var(--dark-gray);
     }
 
     /* Search messages */
