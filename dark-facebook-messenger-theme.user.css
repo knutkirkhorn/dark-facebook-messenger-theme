@@ -342,6 +342,23 @@
         border-left: 2px solid var(--dark-gray);
     }
 
+    /* Change theme */
+    /* Title in modal */
+    h2._4ebz {
+        color: var(--normal-dark-red);
+    }
+    
+    /* Description in modal */
+    div._28he {
+        color: var(--light-gray);
+    }
+    
+    /* Change emoji */
+    /* Description in modal */
+    div._5bxm {
+        color: var(--light-gray);
+    }
+
     /* Search messages */
     #magnifying-glass #Fill-1 {
         fill: var(--normal-dark-red);
