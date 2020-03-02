@@ -230,6 +230,11 @@
         color: var(--dark-gray);
     }
 
+    /* Preview message response description */
+    ._67tw._1nc6 > span {
+        color: var(--light-gray);
+    }
+
     /* React to message */
     ._5zvq._7i2o > svg > g > path {
         fill: var(--normal-dark-red);
