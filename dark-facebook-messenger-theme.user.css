@@ -15,6 +15,7 @@
         --darker-dark-red: rgb(141, 60, 60);
         --dark-gray: rgb(49, 49, 49);
         --light-gray: rgba(234, 234, 234, 0.4);
+        --lighter-gray: rgba(153, 153, 153);
     }
 
     /* Incoming message box */
@@ -39,7 +40,7 @@
     }
 
     ._17w2, ._3szq, ._1ht6, .__6m, ._4ik6, ._ih3, ._5i_d .__6m, ._2jnv, ._364g, ._4rpj, ._1ht3 ._1htf, ._4rph ._4rpj, ._llq ._3oh-, ._3oh- > div > a, ._2y8z, ._1vp5, ._2s25, ._3oh- > span > a, ._4ik4._4ik5, ._58-0._58ah > ._58ak > ._58al._7tpc, ._3q34, ._225b {
-        color: var(--normal-dark-red);
+        color: var(--normal-dark-red) !important;
     }
 
     ._7sli {
@@ -169,6 +170,26 @@
     /* Go back from search arrow */
     #arrow-left #Fill-1 {
         fill: var(--normal-dark-red);
+    }
+
+    /* Message requests: sub text ("From <messenger>") */
+    ._1htf._3xsd {
+        color: var(--lighter-gray);
+    }
+
+    /* Message requests: message icon */
+    #message-dots #Fill-11 {
+        fill: var(--normal-dark-red);
+    }
+
+    /* Click message request => "Se filtered messages" text */
+    ._2ogt._6yb- {
+        color: var(--light-gray);
+    }
+    
+    /* Click message request => decline message(s) */
+    ._3yvh._1d-z {
+        color: var(--light-gray);
     }
 
     /* Composing new message => cancel cross */
