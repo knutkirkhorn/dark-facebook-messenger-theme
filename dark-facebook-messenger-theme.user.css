@@ -362,6 +362,17 @@
         background: var(--normal-dark-red);
     }
 
+    /* Modal for missed call */
+    /* Text with how long ago */
+    ._2r2v {
+        color: var(--light-gray);
+    }
+
+    /* "Missed call" text */
+    ._2r2u {
+        color: var(--normal-dark-red);
+    }
+
     /* Selected chat => Right panel */
     /* Group chat: circle around profile picture or plus number of people */
     ._7101 > ._7q1j > div {
