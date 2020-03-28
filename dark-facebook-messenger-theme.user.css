@@ -256,6 +256,11 @@
         color: var(--light-gray);
     }
 
+    /* Title for game name */
+    ._2620 {
+        color: var(--normal-dark-red);
+    }
+
     /* React to message */
     ._5zvq._7i2o > svg > g > path {
         fill: var(--normal-dark-red);
