@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     dark-facebook-messenger-theme
-// @version  1.0.0
+// @version  1.2.0
 // @grant    none
 // @match http://www.facebook.com/*
 // @match https://www.facebook.com/*
@@ -14,10 +14,10 @@
 
 // Adds a new <link> html element to override the current favicon
 function repalceFavicon(url) {
-    let element = document.createElement('link');
-    element.rel = 'icon';
-    element.href = url;
-    document.head.appendChild(element);
+    const iconElement = document.createElement('link');
+    iconElement.rel = 'icon';
+    iconElement.href = url;
+    document.head.appendChild(iconElement);
 }
 
 // Check which favicon to change to
