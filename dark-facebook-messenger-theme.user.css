@@ -9,7 +9,7 @@
 @supportURL   https://github.com/Knutakir/dark-facebook-messenger-theme/issues
 ==/UserStyle== */
 
-@-moz-document domain("messenger.com"), domain("facebook.com") {
+@-moz-document domain("messenger.com"), regexp("(.*)facebook.com\\/messages(.*)") {
     :root {
         --normal-dark-red: rgb(198, 84, 84);
         --darker-dark-red: rgb(141, 60, 60);
