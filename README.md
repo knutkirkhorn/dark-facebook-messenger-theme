@@ -1,6 +1,8 @@
 <h1 align="center">
 	<br>
-	<img width="360" src="media/logo.svg" alt="dark-facebook-messenger-theme">
+	<a href="https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/main/dark-facebook-messenger-theme.user.css">
+		<img width="360" src="media/logo.svg" alt="Dark Facebook Messenger Theme logo">
+	</a>
 	<br>
 	<br>
 	<br>
@@ -9,6 +11,12 @@
 > 🕶️ Cool dark red Facebook Messenger theme
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/main/dark-facebook-messenger-theme.user.css)
+
+<div align="center">
+	<a href="https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/main/dark-facebook-messenger-theme.user.css">
+		<img src="media/screenshot.png" alt="Dark Facebook Messenger Theme example image">
+	</a>
+</div>
 
 ## Installation
 ### Using the browser plugin Stylus
