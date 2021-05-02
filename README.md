@@ -1,6 +1,8 @@
 <h1 align="center">
 	<br>
-	<img width="360" src="media/logo.svg" alt="Dark Facebook Messenger Theme logo">
+	<a href="https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/main/dark-facebook-messenger-theme.user.css">
+		<img width="360" src="media/logo.svg" alt="Dark Facebook Messenger Theme logo">
+	</a>
 	<br>
 	<br>
 	<br>
