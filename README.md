@@ -10,6 +10,12 @@
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/main/dark-facebook-messenger-theme.user.css)
 
+<div align="center">
+	<a href="https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/main/dark-facebook-messenger-theme.user.css">
+		<img src="https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/main/media/screenshot.png" alt="Dark Facebook Messenger Theme example image">
+	</a>
+</div>
+
 ## Installation
 ### Using the browser plugin Stylus
 1. Get the [Stylus](https://github.com/openstyles/stylus) plugin:
