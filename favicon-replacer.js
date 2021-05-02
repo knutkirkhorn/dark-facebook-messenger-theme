@@ -1,16 +1,19 @@
 // ==UserScript==
-// @name     dark-facebook-messenger-theme
-// @version  1.2.0
-// @grant    none
-// @match http://www.facebook.com/*
-// @match https://www.facebook.com/*
-// @match http://www.messenger.com/*
-// @match https://www.messenger.com/*
+// @name         Dark Facebook Messenger Theme
+// @description  🕶️ Cool dark red Facebook Messenger theme
+// @namespace    https://github.com/Knutakir
+// @version      1.2.0
+// @license      MIT
+// @author       Knut Kirkhorn
+// @grant        none
+// @homepageURL  https://github.com/Knutakir/dark-facebook-messenger-theme
+// @supportURL   https://github.com/Knutakir/dark-facebook-messenger-theme/issues
+// @updateURL    https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/main/favicon-replacer.js
+// @match        http://www.facebook.com/*
+// @match        https://www.facebook.com/*
+// @match        http://www.messenger.com/*
+// @match        https://www.messenger.com/*
 // ==/UserScript==
-
-/**
-*	Made by Knut Kirkhorn - Licensed MIT
-**/
 
 // Adds a new <link> html element to override the current favicon
 function repalceFavicon(url) {
