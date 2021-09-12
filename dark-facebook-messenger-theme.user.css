@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name         Dark Facebook Messenger Theme
 @description  🕶️ Cool dark red Facebook Messenger theme
-@namespace    https://github.com/Knutakir
+@namespace    https://github.com/knutkirkhorn
 @version      2.0.0
 @license      MIT
 @author       Knut Kirkhorn
-@homepageURL  https://github.com/Knutakir/dark-facebook-messenger-theme
-@supportURL   https://github.com/Knutakir/dark-facebook-messenger-theme/issues
-@updateURL    https://raw.githubusercontent.com/Knutakir/dark-facebook-messenger-theme/main/dark-facebook-messenger-theme.user.css
+@homepageURL  https://github.com/knutkirkhorn/dark-facebook-messenger-theme
+@supportURL   https://github.com/knutkirkhorn/dark-facebook-messenger-theme/issues
+@updateURL    https://raw.githubusercontent.com/knutkirkhorn/dark-facebook-messenger-theme/main/dark-facebook-messenger-theme.user.css
 ==/UserStyle== */
 
 @-moz-document domain("messenger.com"), regexp("http(s?)(.*)facebook.com\/messages(.*)") {
