@@ -37,6 +37,8 @@
         --divider: var(--dark-25);
         --media-inner-border: var(--dark-25);
         --popover-background: var(--darker-gray);
+        --primary-icon: var(--normal-dark-red);
+        --always-black: var(--normal-dark-red);
 
         /* Left list (different chats) */
         --surface-background: var(--dark-gray);
@@ -82,7 +84,7 @@
     /* SVG icons */
     svg.a8c37x1j.ms05siws.hwsy1cff.b7h9ocf4,
     /* Search icon in right menu for selected chat */
-    .o8rfisnq.j83agx80.cbu4d94t.tvfksri0.aov4n071.bi6gxh9e.l9j0dhe7 > svg > path {
+    .x6s0dn4.x1qhmfi1.x14yjl9h.xudhj91.x18nykt9.xww2gxu.x78zum5.x1fgtraw.xl56j7k.x1264ykn > svg > path {
         fill: var(--normal-dark-red);
     }
 
