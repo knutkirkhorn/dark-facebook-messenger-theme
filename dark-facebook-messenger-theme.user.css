@@ -11,97 +11,97 @@
 ==/UserStyle== */
 
 @-moz-document domain("messenger.com"), regexp("http(s?)(.*)facebook.com\/messages(.*)") {
-    :root,
-    .__fb-light-mode,
-    .__fb-dark-mode {
-        --normal-dark-red: rgb(198, 84, 84);
-        --dark-gray: rgb(49, 49, 49);
-        --darker-gray: rgb(36, 36, 36);
-        --light-gray: rgba(234, 234, 234, 0.4);
-        --light-gray-non-opaque: rgb(123, 123, 123);
-        --lighter-gray: rgba(153, 153, 153);
-        --dark-15: rgba(0, 0, 0, 0.15);
-        --dark-25: rgba(0, 0, 0, 0.25);
-        --gray-15: rgba(145, 145, 145, 0.15);
-        --overlay-alpha-80: rgba(20, 20, 20, 0.8);
+	:root,
+	.__fb-light-mode,
+	.__fb-dark-mode {
+		--normal-dark-red: rgb(198, 84, 84);
+		--dark-gray: rgb(49, 49, 49);
+		--darker-gray: rgb(36, 36, 36);
+		--light-gray: rgba(234, 234, 234, 0.4);
+		--light-gray-non-opaque: rgb(123, 123, 123);
+		--lighter-gray: rgba(153, 153, 153);
+		--dark-15: rgba(0, 0, 0, 0.15);
+		--dark-25: rgba(0, 0, 0, 0.25);
+		--gray-15: rgba(145, 145, 145, 0.15);
+		--overlay-alpha-80: rgba(20, 20, 20, 0.8);
 
-        /* Filter is generated from `--normal-dark-red` by converting to hex and using https://codepen.io/sosuke/pen/Pjoqqp */
-        --normal-dark-red-filter: invert(43%) sepia(12%) saturate(2070%) hue-rotate(314deg) brightness(99%) contrast(113%);
+		/* Filter is generated from `--normal-dark-red` by converting to hex and using https://codepen.io/sosuke/pen/Pjoqqp */
+		--normal-dark-red-filter: invert(43%) sepia(12%) saturate(2070%) hue-rotate(314deg) brightness(99%) contrast(113%);
 
-        /* Override CSS variables */
-        --primary-text: var(--normal-dark-red);
-        --secondary-text: var(--lighter-gray);
-        --filter-accent: var(--normal-dark-red-filter);
-        --filter-primary-icon: var(--normal-dark-red-filter);
-        --hover-overlay: var(--gray-15);
-        --divider: var(--dark-25);
-        --media-inner-border: var(--dark-25);
-        --popover-background: var(--darker-gray);
-        --primary-icon: var(--normal-dark-red);
-        --always-black: var(--normal-dark-red);
+		/* Override CSS variables */
+		--primary-text: var(--normal-dark-red);
+		--secondary-text: var(--lighter-gray);
+		--filter-accent: var(--normal-dark-red-filter);
+		--filter-primary-icon: var(--normal-dark-red-filter);
+		--hover-overlay: var(--gray-15);
+		--divider: var(--dark-25);
+		--media-inner-border: var(--dark-25);
+		--popover-background: var(--darker-gray);
+		--primary-icon: var(--normal-dark-red);
+		--always-black: var(--normal-dark-red);
 
-        /* Left list (different chats) */
-        --surface-background: var(--dark-gray);
+		/* Left list (different chats) */
+		--surface-background: var(--dark-gray);
 
-        /* Selected chat (middle) and menu right (if opened) */
-        --messenger-card-background: var(--dark-gray);
+		/* Selected chat (middle) and menu right (if opened) */
+		--messenger-card-background: var(--dark-gray);
 
-        /* Popup/modal card background */
-        --card-background: var(--dark-gray);
+		/* Popup/modal card background */
+		--card-background: var(--dark-gray);
 
-        /* Round buttons on top right of left list (settings and write new message) */
-        --secondary-button-background: var(--dark-15);
+		/* Round buttons on top right of left list (settings and write new message) */
+		--secondary-button-background: var(--dark-15);
 
-        /* Scroll bars */
-        --web-wash: var(--dark-gray);
-        --scroll-thumb: var(--light-gray-non-opaque);
+		/* Scroll bars */
+		--web-wash: var(--dark-gray);
+		--scroll-thumb: var(--light-gray-non-opaque);
 
-        /* Bubble around incoming message */
-        --wash: var(--dark-15);
+		/* Bubble around incoming message */
+		--wash: var(--dark-15);
 
-        /* Unseen message icon */
-        --disabled-icon: var(--light-gray);
+		/* Unseen message icon */
+		--disabled-icon: var(--light-gray);
 
-        /* Icons beside message (send, react, reply) */
-        --placeholder-icon: var(--normal-dark-red);
+		/* Icons beside message (send, react, reply) */
+		--placeholder-icon: var(--normal-dark-red);
 
-        /* Timestamps over messages */
-        --placeholder-text: var(--lighter-gray);
+		/* Timestamps over messages */
+		--placeholder-text: var(--lighter-gray);
 
-        /* Line under buttons */
-        --primary-button-background: var(--normal-dark-red);
+		/* Line under buttons */
+		--primary-button-background: var(--normal-dark-red);
 
-        /* Round dropdown button at top right corner of `facebook.com/messages` */
-        --primary-deemphasized-button-background: var(--dark-gray);
+		/* Round dropdown button at top right corner of `facebook.com/messages` */
+		--primary-deemphasized-button-background: var(--dark-gray);
 
-        /* Selected chat in left list */
-        --hosted-view-selected-state: var(--dark-15);
+		/* Selected chat in left list */
+		--hosted-view-selected-state: var(--dark-15);
 
-        /* Shadow border for modal/popup */
-        --shadow-inset: var(--dark-25);
-    }
+		/* Shadow border for modal/popup */
+		--shadow-inset: var(--dark-25);
+	}
 
-    /* SVG icons */
-    svg.a8c37x1j.ms05siws.hwsy1cff.b7h9ocf4,
-    /* Search icon in right menu for selected chat */
-    .x6s0dn4.x1qhmfi1.x14yjl9h.xudhj91.x18nykt9.xww2gxu.x78zum5.x1fgtraw.xl56j7k.x1264ykn > svg > path {
-        fill: var(--normal-dark-red);
-    }
+	/* SVG icons */
+	svg.a8c37x1j.ms05siws.hwsy1cff.b7h9ocf4,
+	/* Search icon in right menu for selected chat */
+	.x6s0dn4.x1qhmfi1.x14yjl9h.xudhj91.x18nykt9.xww2gxu.x78zum5.x1fgtraw.xl56j7k.x1264ykn > svg > path {
+		fill: var(--normal-dark-red);
+	}
 
-    /* Icons in `facebook.com/messages` */
-    i.cwsop09l {
-        filter: var(--filter-secondary-icon);
-    }
+	/* Icons in `facebook.com/messages` */
+	i.cwsop09l {
+		filter: var(--filter-secondary-icon);
+	}
 
-    /* Search icon in `messenger.com` */
-    i.sx_8e2d83,
-    /* Search icon in `facebook.com/messages` */
-    .qnrpqo6b.ae35evdt.jxrgncrl.fdg1wqfs > i {
-        filter: var(--filter-primary-icon);
-    }
+	/* Search icon in `messenger.com` */
+	i.sx_8e2d83,
+	/* Search icon in `facebook.com/messages` */
+	.qnrpqo6b.ae35evdt.jxrgncrl.fdg1wqfs > i {
+		filter: var(--filter-primary-icon);
+	}
 
-    /* "Close" button when searching messages */
-    div.q2y6ezfg {
-        background-color: var(--dark-15);
-    }
+	/* "Close" button when searching messages */
+	div.q2y6ezfg {
+		background-color: var(--dark-15);
+	}
 }

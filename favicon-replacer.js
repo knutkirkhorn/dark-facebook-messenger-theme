@@ -17,15 +17,15 @@
 
 // Adds a new <link> html element to override the current favicon
 function replaceFavicon(url) {
-    const iconElement = document.createElement('link');
-    iconElement.rel = 'icon';
-    iconElement.href = url;
-    document.head.appendChild(iconElement);
+	const iconElement = document.createElement('link');
+	iconElement.rel = 'icon';
+	iconElement.href = url;
+	document.head.appendChild(iconElement);
 }
 
 // Check which favicon to change to
 if (window.location.host === 'www.facebook.com') {
-    replaceFavicon('https://raw.githubusercontent.com/knutkirkhorn/dark-facebook-messenger-theme/main/media/fb.ico');
+	replaceFavicon('https://raw.githubusercontent.com/knutkirkhorn/dark-facebook-messenger-theme/main/media/fb.ico');
 } else if (window.location.host === 'www.messenger.com') {
-    replaceFavicon('https://raw.githubusercontent.com/knutkirkhorn/dark-facebook-messenger-theme/main/media/messenger.ico');
+	replaceFavicon('https://raw.githubusercontent.com/knutkirkhorn/dark-facebook-messenger-theme/main/media/messenger.ico');
 }
