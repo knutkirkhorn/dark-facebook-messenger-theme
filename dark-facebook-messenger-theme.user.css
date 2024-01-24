@@ -40,6 +40,7 @@
 		--primary-icon: var(--normal-dark-red);
 		--always-black: var(--normal-dark-red);
 		--icon-primary-color: var(--normal-dark-red);
+		--secondary-button-text: var(--lighter-gray);
 
 		/* Left list (different chats) */
 		--surface-background: var(--dark-gray);
