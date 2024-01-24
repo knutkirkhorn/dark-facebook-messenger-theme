@@ -39,6 +39,7 @@
 		--popover-background: var(--darker-gray);
 		--primary-icon: var(--normal-dark-red);
 		--always-black: var(--normal-dark-red);
+		--icon-primary-color: var(--normal-dark-red);
 
 		/* Left list (different chats) */
 		--surface-background: var(--dark-gray);
