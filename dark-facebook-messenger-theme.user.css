@@ -41,6 +41,7 @@
 		--always-black: var(--normal-dark-red);
 		--icon-primary-color: var(--normal-dark-red);
 		--secondary-button-text: var(--lighter-gray);
+		--disabled-button-background: var(--gray-15);
 
 		/* Left list (different chats) */
 		--surface-background: var(--dark-gray);
